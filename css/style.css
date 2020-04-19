@@ -1,0 +1,208 @@
+::selection{
+	background: orange;
+	color: white;
+}
+
+::-moz-selection{
+	background: orange;
+	color: white;
+}
+
+.napbar{
+	background-image: linear-gradient(to right, #ffda2c, #ffb515); 
+    top: 0; 
+    z-index: 99;
+    width: 100%;
+    height: 80px;
+}
+
+.ligaris3{
+	float: right;
+	text-align: right;
+	z-index: 100;
+}
+
+.garis3{
+	width: 27px; 
+	height: 27px;
+}
+
+.tombol3{
+	overflow: hidden;
+
+}
+
+.tombol3 img{
+	transition: .3s ;
+}
+
+.tombol3:hover img{
+	transform: scale(1.2);
+}
+
+.buled{
+	width: 40px; 
+	height: 40px;
+}
+
+.tulisan{
+	margin-left: 115px;
+	position: relative;
+	overflow: hidden;	
+}
+
+.rev{
+	
+}
+
+.review{
+	text-align: center;
+}
+
+.tulis1{
+	font-family: 'Open Sans'; 
+	font-weight: bolder; 
+	color: #f3ca0b;
+	font-size: 40px;
+	text-align: center;
+}
+
+.indikator{
+	width: 25px; 
+	height: 25px;
+}
+
+.sosmed{
+	font-family: 'Gotham';
+	font-size: 49px;
+	font-weight: bold;
+}
+
+.tomsos{
+	width: 195px; 
+	height: 195px;
+	margin-top: 15px;
+}
+
+.foot{
+	width: 100%; 
+	height: auto; 
+	background-color: rgb(29, 19, 0);
+	margin: 0;
+}
+
+.circle{
+	text-align: left;
+}
+
+.menuss{
+	width: 350px; 
+	height: 350px;
+}
+
+.buttons{
+	
+}
+
+.cabangkita{
+	font-family: 'Gotham';
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 17px;
+	color: #e88e03;
+}
+
+.cabang1{
+	background-image: url('../images/cabang1.png');
+	width: 50%; 
+	height: auto;
+	position: static;
+}
+
+.cabang2{
+	width: 50%; 
+	height: auto;
+	position: absolute;
+	background: url(images/cabang2.png);
+}
+
+.kotakk{
+	width: 100%;
+	height: auto;
+	background-image: linear-gradient(to right, #f3c50a, #e89f00); 
+}
+
+.desk a{
+	font-family: 'Gotham';
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+.desk a:hover{
+	color: orange;
+	text-decoration: none;
+}
+
+.desk p{
+	font-family: 'Gotham';
+	font-size: 15px;
+	color: white;
+}
+
+.alamat{
+	font-family: 'Gotham';
+	font-size: 26px;
+	font-weight: bold;
+	color: orange;
+}
+
+.nohp{
+	font-family: 'Gotham';
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+}
+
+.maps{
+	margin-top: 400px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+ .buled {
+  	margin-top: -2px;
+  	width: 39px;
+  	height: 39px;
+ } 
+
+ .napbar {
+ 	height: 100px;
+ }
+
+ .tombol3 img{
+ 	
+ }
+
+ .sosmed{
+ 	margin-bottom: 80px;
+ }
+
+ .osm{
+ 	text-align: center;
+ }
+ .ligaris3{
+ 	margin-right: ;
+ }
+ .tomsos{
+ 	margin-top: -15px;
+ }
+
+ .maps{
+ 	margin-top: -30px;
+ }
+}
