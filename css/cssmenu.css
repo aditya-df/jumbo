@@ -353,6 +353,9 @@ html,body{
             .fav{
                 width: 100%;
             }
+            .favatas{
+                font-size: 5vw;
+            }
             .menu{
                 width: 100%;
                 overflow-y: unset;
@@ -372,6 +375,9 @@ html,body{
             }
             .menukuning,.menusoftk,.menupink,.menupatm,.menupatr{
                 height: 180px;
+            }
+            .favatas{
+                padding:0;
             }
         }
         @media all and(max-width: 320px){
